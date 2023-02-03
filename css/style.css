@@ -1,0 +1,29 @@
+section{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+article{
+    width: 60%;
+}
+
+#firststep{
+    justify-self: start;
+    align-self: start;
+}
+
+
+#header{
+    height: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#justifyimg{
+justify-self: left;
+}
+#justifynav{
+    justify-self: right;
+}
